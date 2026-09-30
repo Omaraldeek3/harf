@@ -1,0 +1,9 @@
+name: Feature request / اقتراح تحسين
+description: Suggest a focused improvement to Harf.
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Problem and proposed improvement / الحاجة والتحسين المقترح
+    validations:
+      required: true

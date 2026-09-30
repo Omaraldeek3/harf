@@ -1,0 +1,25 @@
+name: Bug report / بلاغ مشكلة
+description: Report preview, shaping or interface problems.
+body:
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened? / ماذا حدث؟
+      description: Include expected behavior and reproduction steps.
+    validations:
+      required: true
+  - type: input
+    id: font
+    attributes:
+      label: Font name / اسم الخط
+  - type: textarea
+    id: text
+    attributes:
+      label: Sample text / النص المستخدم
+      description: Use non-sensitive text that reproduces the issue.
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and OS / المتصفح ونظام التشغيل
+    validations:
+      required: true

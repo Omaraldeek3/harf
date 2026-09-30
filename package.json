@@ -1,0 +1,35 @@
+{
+  "name": "harf-arabic-font-preview",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "prebuild": "node scripts/notices.mjs",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "fonts:sync": "node scripts/sync-all-fonts.mjs"
+  },
+  "dependencies": {
+    "bidi-js": "1.1.0",
+    "harfbuzzjs": "1.6.2",
+    "jszip": "^3.10.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "woff-lib": "0.0.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "latest",
+    "typescript": "^6.0.3",
+    "vite": "8.3.1",
+    "vitest": "latest"
+  }
+}

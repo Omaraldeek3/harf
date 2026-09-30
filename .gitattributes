@@ -1,0 +1,5 @@
+* text=auto eol=lf
+
+# Preserve upstream font files, licenses, notices, and source archives byte for byte.
+public/** -text
+tests/fixtures/** -text

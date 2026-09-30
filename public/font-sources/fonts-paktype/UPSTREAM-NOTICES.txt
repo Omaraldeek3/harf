@@ -1,0 +1,16 @@
+Source member: debian/copyright
+
+This package was debianized by Clint Adams <schizo@debian.org> on
+Tue,  13 Apr 2005 16:00:00 -0400.
+
+It was downloaded from http://sourceforge.net/projects/paktype/
+
+Upstream Author: Pakistani Typography
+
+Copyright:
+
+Copyright (c) 2002-2004 Pakistani Typography, www.paktype.org
+
+These fonts are distributed under the terms of the GNU GPL v2.
+(See /usr/share/common-licenses/GPL-2)
+
